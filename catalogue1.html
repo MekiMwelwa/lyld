@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .tshirt-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .tshirt {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            width: 250px;
+            text-align: center;
+        }
+        .color-options {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stylish T-Shirts for Sale</h1>
+    <div class="tshirt-container">
+        <div class="tshirt">
+            <img src="IMG-20250207-WA0003.jpg" alt="Black LYL T-Shirt" width="200">
+            <h3>Classic T-Shirts</h3>
+            <p>Price: K165</p>
+            <label for="size1">Size:</label>
+            <select id="size1">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+            <div class="color-options">
+                <div class="color" style="background-color: black;"></div>
+                <div class="color" style="background-color: purple;"></div>
+                <div class="color" style="background-color: red;"></div>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="IMG-20250207-WA0001.jpg"s alt="White LYL T-Shirt" width="200">
+            <h3>Casual T-Shirts</h3>
+            <p>Price: K165</p>
+            <label for="size2">Size:</label>
+            <select id="size2">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+            <div class="color-options">
+                <div class="color" style="background-color: blue;"></div>
+                <div class="color" style="background-color: gray;"></div>
+                <div class="color" style="background-color: green;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
